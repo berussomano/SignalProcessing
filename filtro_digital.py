@@ -24,7 +24,7 @@ def filtro_digital(pdc,nf,original_data,filtertype = 'low'):
     ***
     
     '''
-    
+    import numpy as np    
     import matplotlib.pyplot as plt
     from pandas import DataFrame as DF
     from scipy.signal import butter, filtfilt,freqz
